@@ -1,0 +1,20 @@
+:root {
+  /*
+    color themes
+    8d8741
+    659dbd
+    daad86
+    bc986a
+    fbeec1
+    https://visme.co/blog/website-color-schemes/
+    */
+  --text: #282612;
+  --bg: #fbeec1;
+  --a-hover-default: #ccc;
+  --a-default: black;
+  --site-width: 1280px;
+  --nav-bar-bg: #bc986a;
+  --nav-bar-vertical-padding: .5rem;
+  --nav-bar-item-horizontal-padding: 1rem;
+  --debug-line-width: 0px
+  ; }
