@@ -1,7 +1,6 @@
 ---
-title: Test Article 2
+title: Test Article 3
 date: 2021-12-12 20:46 UTC
-tags: 
 image: johnny5.jpeg
 author: 0foo
 ---
