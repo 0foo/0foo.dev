@@ -1,5 +1,5 @@
 ---
-title: Example Article
+title: Example Article 2
 date: 2012-01-02 20:46 UTC
 tags: example
 image: 200.gif

@@ -55,3 +55,11 @@ a {
     text-decoration: none;
 }
 
+.base-logo{
+	--logo-width: 1.3rem;
+
+	img {
+		width: var(--logo-width);
+		height:auto;
+	}
+}
