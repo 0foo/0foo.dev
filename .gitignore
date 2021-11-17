@@ -1,3 +1,4 @@
+build/
 .bundle
 .cache
 .DS_Store
