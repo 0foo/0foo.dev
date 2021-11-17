@@ -21,7 +21,9 @@
 
             <div class="article-main">
                 <% if defined? type and type == "full" %>
-                    <%= article.body %>
+                    <div class="content">
+                        <%= article.body %>
+                    </div>
                 <% else %>
                     <%= article.summary %>
                 <% end %>

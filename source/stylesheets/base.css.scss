@@ -1,11 +1,9 @@
-:root{
-    line-height: 1.5; // make 1.5 for accessibility (also looks cleaner): https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
-    font-size: 125%; // https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html
-}
+/* BEGIN CSS RESET */
 
-* {
-  box-sizing: border-box; // (border-box makes padding and margin included in dimensions) https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -30,9 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -46,20 +41,73 @@ table {
 	border-spacing: 0;
 }
 
+
+
 img{
-    vertical-align: bottom; // 
-    border-radius: 5px; // I like radius on images
+    vertical-align: bottom; // baseline is for text that descends like a j or a g. 
 }
 
 a {
     text-decoration: none;
 }
 
+
+
+/* END RESET */
+
+
+
+/*
+	make line height 1.5 for accessibility (also looks cleaner): https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+	make font-size 150% for UI: https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html
+*/
+:root{
+    line-height: 1.5;
+    font-size: 125%; 
+}
+
+/*
+	border-box makes padding and margin included in dimensions: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing	
+*/
+* {
+  box-sizing: border-box; 
+}
+
+/*
+Simple logo styling
+usage example:
+	<a href="https://github.com/0foo" class="base-logo">
+		<img src="/images/github-logo.png"/>
+	</a>
+*/
 .base-logo{
 	--logo-width: 1.3rem;
-
+	border: 0px !important;  // logos typically are self-contained images, so stop any cascading borders or text-decorations.
+	text-decoration: none !important;
 	img {
 		width: var(--logo-width);
 		height:auto;
 	}
 }
+
+/*
+Code block styling.
+Needs variables to make it more portable. 
+*/
+pre, code{
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0;
+	display: block !important;
+}
+
+code {
+	border: 1px solid #999;
+	word-wrap: break-word;
+	box-decoration-break: clone;
+	border-radius: .3rem;
+	background-color:#EEEEEE;
+	font-size: .8rem;
+	font-family: Consolas, Monaco, Lucida, Console, Liberation Mono,DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+  }
+  
