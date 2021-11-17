@@ -1,0 +1,53 @@
+
+<article class="article-main-root">
+
+
+    <a href="<%= article.url %>">
+        <% if defined? article.data.image %>
+        <img class="img-featured" src="/images/<%=article.data.image%>"/>
+        <% else %> 
+        <img class="img-featured" src="/images/johnny5.jpeg"/>
+        <% end %>
+    </a>
+
+
+
+    <div class="article-main-content">
+
+
+            <div class="article-meta">
+                <h2 style="display:inline"><a href="<%= article.url %>"><%= article.title %></a></h2>
+            </div> 
+
+            <div class="article-main">
+                <% if defined? type and type == "full" %>
+                    <%= article.body %>
+                <% else %>
+                    <%= article.summary %>
+                <% end %>
+            </div>
+
+            <div class="article-read-more">
+                <% if defined? type and type == "full" %>
+                <% else %>
+                    <a href="<%= article.url %>"> - Read more -</a>
+                <% end %>
+            </div>
+            <% if defined? type and type == "full" %>
+                <hr>
+            <% end %>
+            <div>
+                
+                
+                <time><%= article.date.strftime('%b %e %Y') %></time>, author: <% if defined? article.data.author %> 
+                    <%= article.data.author  %>
+                <% else %> 
+                    0foo
+                <% end %> 
+            <div>
+
+        </div>
+      
+    
+</article>
+<hr class="article-separator"/>
