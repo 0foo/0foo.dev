@@ -4,7 +4,7 @@ title: Css Is Funky
 date: 2021-11-17 16:00 UTC
 tags: front-end, css
 image: css-is-awesome.jpeg
-
+published: false
 ---
 
 I decided to make this blog completely from scratch using vanilla front end web technologies to satisfy a front end learning itch.

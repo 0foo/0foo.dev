@@ -1,9 +1,9 @@
 <article>
 
-      <div class="flex">
+      <div class="flex-ns">
 
-        <div class="w-20">
-            <a class="no-underline" href="#0">
+        <div class="w-20-ns w-100">
+            <a class="no-underline" href="<%= article.url %>">
                 <% if defined? article.data.image %>
                     <img class="db br3" src="/images/<%=article.data.image%>"/>
                 <% else %> 
@@ -13,7 +13,7 @@
         </div>
 
         
-        <div class="w-80 pl3 pr3">
+        <div class="w-80-ns pl3-ns pr3-ns w-100">
 
             <div>
                 <a class="no-underline" href="<%= article.url %>">
