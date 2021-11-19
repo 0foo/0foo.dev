@@ -1,12 +1,14 @@
+  
+
+<div class="di foo-header b0">Random Quote</div><br/>
 
 
-<h2>Random Quote</h2>
 <span id="quote-box">
     A man, a plan, a canal, panama.
 </span>
 <hr>
 
-<h2>Tags</h2>
+<div class="di foo-header">Tags</div><br/>
 <ol>
     <% blog.tags.each do |tag, articles| %>
         <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
@@ -15,11 +17,11 @@
 
 <hr>
 
-<h2>By Year</h2>
+<div class="di foo-header">By Year</div><br/>
 <ol>
     <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
         <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
     <% end %>
 </ol>
 
-<hr>
+<hr>  

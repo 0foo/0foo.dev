@@ -1,12 +1,11 @@
-<div id="nav-wrapper">
+<nav id="navbar-root" class="w-100 fixed z-max p0 m0">
+    <div id="nav-wrapper" class="flex w-60 center items-center p0 m0">
+        <a href="/"><h3>0foo.dev</h4></a>
 
-    <span class="title">
-        <a href="/"><h3>0foo.dev</h3></a>
-    </span>
-
-    <ul class="menu">
-        <li class="item"><a href="/">Home</a></li>
-        <li class="item"><%= link_to 'About', '/pages/about.html' %></li>
-    </ul>
-</div>
-
+        <ul class="flex list">
+            <li class="pl2"><a href="/">Home</a></li>
+            <li class="pl2">|</li>
+            <li class="pl2"><%= link_to 'About', '/pages/about.html' %></li>
+        </ul>
+    </div>
+</nav>

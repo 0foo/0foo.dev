@@ -73,22 +73,7 @@ a {
   box-sizing: border-box; 
 }
 
-/*
-Simple logo styling
-usage example:
-	<a href="https://github.com/0foo" class="base-logo">
-		<img src="/images/github-logo.png"/>
-	</a>
-*/
-.base-logo{
-	--logo-width: 1.3rem;
-	border: 0px !important;  // logos typically are self-contained images, so stop any cascading borders or text-decorations.
-	text-decoration: none !important;
-	img {
-		width: var(--logo-width);
-		height:auto;
-	}
-}
+
 
 /*
 Code block styling.

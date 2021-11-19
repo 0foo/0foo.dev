@@ -14,16 +14,15 @@
 
   </head>
   <body>
-    <nav id="main-navbar">
-        <%= partial "partials/navbar" %>
-    </nav>
+    <%= partial "partials/navbar" %>
 
-    <div id="content-wrapper">
-      <main id="main-content">
+
+    <div id="main-root" class="flex w-60 center">
+
+      <main class="flex flex-column w-70 pr3">
         <%= yield %>
       </main>
-
-      <aside id="main-sidebar">    
+      <aside id="sidebar-root" class="w-30"> 
         <%= partial "partials/sidebar" %>
       </aside>
     </div>
@@ -31,3 +30,6 @@
       <%= partial "partials/footer" %>
   </body>
 </html>
+
+
+     

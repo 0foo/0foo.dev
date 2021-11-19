@@ -6,7 +6,7 @@ tags: new-blog
 
 ---
 
-This is the beginning of a new blog iteration. Layout and design are either 100% by me, or <strike>stolen from</strike> inspired by other places, depending on if you like the site or not.
+This is the beginning of a new blog iteration. Layout and design is by me, but <strike>stolen from</strike> inspired by other places.
 READMORE
 <br/>
 
@@ -32,21 +32,26 @@ I've considered a number of blog technologies to create the blog and discarded t
     <ul>
         <li>Super easy to get started and to manage.</li>
         <li>Part of the goal is to learn front end and a managed solution handles all of that for you.</li>
-        <li>The site is pretty limited to any sort of customization.</li>
+        <li>The site is pretty limited to any sort of customization which is a feature for most people using those sites.</li>
     </ul>
 </li>
+
+
+Great resource for 
 
 What I ended up going with: Static site generation with Middleman and Netlify!  Also known as the <a href="https://jamstack.wtf/">JAM stack</a>.
 Upsides:
 1. Easy to use: just push to a git repo and the site is deployed 
 2. Front end heavy which I wanted for learning and enjoyment(ish)
 3. Super secure as all of the work is done before deployment.
+4. Netlify handles everything! From build, to deploy, to host, to https certs. I just push to Github. 
+4. Totally free! 
 Downsides:
 1. No out of the box dynamic content. Everything is static, which means no out of the box commenting.
 
 <h3>On comments</h3>
 I love comments. I love interacting with people and I love discussions.  I think it's one of the best part's of having a public facing internet site.
-However, managing comments is pretty involved as there's spam and moderation concerns and proving one is not in fact a robot.
+However, managing comments is pretty involved as there's spam and moderation concerns and proving one is NOT in fact a robot.
 I didn't want to manage a server though, didn't want to REQUIRE javascript, and didn't want to shoehorn in an opinionated comment widget.
 I looked through numerous comment options and discarded them all for various reasons[1].
 

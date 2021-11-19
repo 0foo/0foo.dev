@@ -1,127 +1,81 @@
-@import 'base.css';
+@import url('https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
-@import 'variables.css';
-@import 'navbar.css';
 
 
+:root{
+  line-height: 1.5;
+  font-size: 125%; 
+}
 
 * {
   font-family:  'Inconsolata', monospace;
+
 }
 
-
-
 body {
-  color: var(--text);
-  background: var(--bg);
-  
+  color: #282612;
+  background: #fbeec1;
+}
+
+nav{
+  background-color: #bc986a;
 }
 
 a {
-  color: var(--a-default);  
+  color: black;  
   &:focus, &:hover {
-      color: var(--a-hover-default);
+      color: #ccc;
   }
 }
 
-h1, h2, h3, h4, h5, h6{
+
+#navbar-root{
   a{
-    border: 0px !important;
+    text-decoration: none;
   }
+
+  border-bottom: 2px solid #ccc;
 }
 
-
-#content-wrapper{
-  display: flex;
-  flex-direction: row;
-  width: var(--site-width);
-  margin: auto;
-  padding-top: 1rem;
-  border: solid  var(--debug-line-width) black;
-
-  hr{
-    background-color: #ccc;
-    height: 2px;
-    border: none;
-    margin: .3rem 0rem;
-  }
-  
-  .article-separator{
-    margin: 1rem 0 1rem 0;
-  }
-
-  #main-content{
-    padding-right: 1rem;
-
-    flex: 66.5%;
-      
-      .article-main-root{
-        display: flex;
-        flex-direction: row;
-        border-bottom: solid 0px #ccc;
-        border-radius: 8px;
-        
-
-
-        .img-featured {
-          width: 8rem;
-          height: auto;
-          border-radius: 5px;
-          vertical-align: bottom;
-        }
-        
-        ol {
-          padding: 2rem;
-        }
-
-      .article-main-content{
-          display: flex;
-          flex-direction: column;
-          margin-left: .6rem;
-          overflow:scroll;
-
-          .article-meta meta{
-               font-size: .1rem;
-          }
-
-          .article-read-more{
-            font-size: .8rem;
-          }
-        }
-
-      }
-  }
-
-  #main-sidebar{
-    flex: 33.5%;
-    ol{
-      list-style: none;
-    }  
-  }
-
+#main-root{
+  padding-top: 100px;
 }
 
+h1,h2,h3,h4,h5,h6{
+  // font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin:0;
+  padding:0;
+}
 
-// @media screen and (max-width:650px){
-//   .navbar {
-//       .menu {
-//           flex-direction: column;
-//       }
-//   }
-// }
+hr {
+  background-color: #ccc;
+  height: 2px;
+  border: none;
+  margin: 1rem 0rem;
+}
 
+.foo-header{
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin:0;
+  padding:0;
+  // border-bottom: 2px solid black;
+  //font-weight: bold;
+  font-size:1.25rem;
+}
 
-.content{
-
-  pre{
-    all: revert;
-  }
-
-  a{
-    border: solid 1px #ccc;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-
-
+/*
+Simple logo styling
+usage example:
+	<a href="https://github.com/0foo" class="base-logo">
+		<img src="/images/github-logo.png"/>
+	</a>
+*/
+.base-logo{
+	--logo-width: 1.3rem;
+	border: 0px !important;  // logos typically are self-contained images, so stop any cascading borders or text-decorations.
+	text-decoration: none !important;
+	img {
+		width: var(--logo-width);
+		height:auto;
+	}
 }
