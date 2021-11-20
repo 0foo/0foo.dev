@@ -1,0 +1,164 @@
+[
+    {
+        "quote":"If every pork chop was perfect, we wouldn't have hot dogs.",
+        "author":  "Steven Universe"
+    },
+    {
+        "quote":"No matter how flat you make a pancake its still got two sides.",
+        "author":  "Dr Phil"
+    },
+    {
+        "quote":"There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.",
+        "author":  "Jeff Atwood"
+    },
+    {
+        "quote":"Sucking at something is the first step to being sorta good at something.",
+        "author":  "Jake the Dog"
+    },
+    {
+        "quote":"Two is one and one is none.",
+        "author":  "Navy Seals saying"
+    },
+    {
+        "quote":"Premature optimization is the root of all evil.",
+        "author":  "Donald Knuth"
+    },
+    {
+        "quote":"How did it get so late so soon? It's night before it's afternoon. December is here before it's June. My goodness how the time has flewn. How did it get so late so soon?",
+        "author":  "Dr. Seuss"
+    },
+    {
+        "quote":"Your boos mean nothing, I've seen what makes you cheer.",
+        "author":  "Rick and Morty",
+        "published": false
+    },
+    {
+        "quote":"The universe appears to be 13.8 billion years old. Earth is like 4.5 billion years old. In another half billion years of so the sun will expand and probably evaporate the oceans and make life impossible on earth. Which means if it had taken consciousness 10% longer to evolve, it would have never evolved at all.",
+        "author":  "Elon Musk"
+    },
+    {
+        "quote":"That's the problem with heroes, really. Their only purpose in life is to thwart others. They make no plans, develop no strategies. They react instead of act. Without villains, heroes would stagnate. Without heroes, villains would be running the world. Heroes have morals. Villains have work ethic.",
+        "author":  "Ultron 59",
+        "published": false
+    },
+    {
+        "quote": "Science is the belief in the ignorance of the experts.",
+        "author":  "Richard Feynman"
+    },
+    {
+        "quote": "I've come up with a set of rules that describe our reactions to technologies: 1. Anything that is in the world when you’re born is normal and ordinary and is just a natural part of the way the world works. 2. Anything that's invented between when you’re fifteen and thirty-five is new and exciting and revolutionary and you can probably get a career in it. 3. Anything invented after you're thirty-five is against the natural order of things.",
+        "author":  "Douglas Adams",
+        "published": false
+    },
+    {
+        "quote": "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.",
+        "author":  "Robert A. Heinlein"
+    },
+    {
+        "quote": "Scratch a cynic and underneath you'll find a disappointed idealist.",
+        "author":  "George Carlin"
+    },
+    {
+        "quote": "Many a man owes his success to his first wife and his second wife to his success.",
+        "author":  "Jim Backus",
+        "published": false
+    },
+    {
+        "quote": "I've been doing the Fonda workout: the Peter Fonda workout. That's where I wake up, take a hit of acid, smoke a joint, and go to my sister's house and ask her for money.",
+        "author":  "Kevin Meaney", 
+        "published": false
+    },
+    {
+        "quote": "Life is What Happens To You While You're Busy Making Other Plans.",
+        "author":  "John Lennon"
+    },
+    {
+        "quote": "I think a good gift for the President would be a chocolate revolver. And since he's so busy, you'd probably have to run up to him real quick and hand it to him.",
+        "author":  "Jack Handey"
+    },
+    {
+        "quote": "Computers are useless. They can only give you answers.",
+        "author":  "Pablo Picasso",
+        "published": false
+    },
+    {
+        "quote": "There's a fine line between fishing and just standing on the shore like an idiot.",
+        "author":  "Stephen Wright"
+    },
+    {
+        "quote": "A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.",
+        "author":  "Douglas Adams"
+    },
+    {
+        "quote": "My advice to you is get married: if you find a good wife you'll be happy; if not, you'll become a philosopher.",
+        "author":  "Socrates",
+        "published": false
+    },
+    {
+        "quote": "Wit is educated insolence.",
+        "author":  "Aristotle",
+        "published": false
+    },
+    {
+        "quote": "I either want less corruption, or more chance to participate in it.",
+        "author":  "Ashleigh Brilliant",
+        "published": false
+    },
+    {
+        "quote": "It takes a big man to cry, but it takes an even bigger man to laugh at that man.",
+        "author":  "Jack Handey"
+    },
+    {
+        "quote": "Dad always thought laughter was the best medicine, which I guess is why several of us died of tuberculosis.",
+        "author":  "Jack Handey"
+    },
+    {
+        "quote": "Marge, don't discourage the boy! Weaseling out of things is what seperates us from the animals! Except the weasel.",
+        "author":  "Homer Simpson",
+        "published": false
+    },
+    {
+        "quote": "My Logic teacher once told me that two positives don't make a negative. Two words for them: Yeah, right.",
+        "author":  "Anonymous"
+    },
+    {
+        "quote": "Who the hell wants to hear actors talk?",
+        "author":  "Harry M. Warner (President of Warner Brothers Pictures)"
+    },
+    {
+        "quote": "I figure that if God actually does exist, He's big enough to understand an honest difference of opinion.",
+        "author":  "Isaac Asimov",
+        "published": false
+    },
+    {
+        "quote": "Louis Pasteur's theory of germs is ridiculous fiction.",
+        "author":  "Pierre Pachet, Professor of Physiology at Toulouse, 1872"
+    },
+    {
+        "quote": "When I was a kid I used to pray every night for a new bicycle. Then I realised that the Lord doesn't work that way so I stole one and asked Him to forgive me.",
+        "author":  "Emo Philips",
+        "published": false
+    },
+    {
+        "quote": "Yeah, that's me, Tracer Bullet. I've got eight slugs in me. One's lead, the rest bourbon. The drink packs a wallop, and I pack a revolver. I'm a private eye.",
+        "author":  "Calvin & Hobbes",
+        "published": false
+    },
+    {
+        "quote": "Ever notice that anyone going slower than you is an idiot, but anyone going faster is a maniac?",
+        "author":  "George Carlin"
+    },
+    {
+        "quote": "An intellectual is a person who's found one thing that's more interesting than sex.",
+        "author":  "Aldous Huxley",
+        "published": false
+    },
+    {
+        "quote": "I remember the days when people used to have 4 maybe 5 opinions, and most of them were about food.",
+        "author":  "Norm Macdonald"
+    },
+    {
+        "quote": "It occurred to me that ID is a strange abbreviation, because “I” is short for “I,” and then “D”… is short for “dentification,” so… It seems to me “D” is doing most of the… legwork on that one.",
+        "author":  "Norm Macdonald"
+    }
+]
