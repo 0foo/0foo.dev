@@ -1,24 +1,24 @@
   
+<div class="mv3">
+    <div class="di foo-header b0">Random Quote</div><br/>
 
-<div class="di foo-header b0">Random Quote</div><br/>
 
+    <span id="quote-box">
+        <div id="quotes-and-quotes-and-quotes">
+        </div>
+        <div id="quotes-and-quotes-and-quotes-author">
+        </div>
+    </span>
+</div>
 
-<span id="quote-box">
-    <div id="quotes-and-quotes-and-quotes">
-    </div>
-    <div id="quotes-and-quotes-and-quotes-author">
-    </div>
-</span>
-<hr>
-
+<div class="mv3">
 <div class="di foo-header">Tags</div><br/>
 <ol>
     <% blog.tags.each do |tag, articles| %>
         <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
     <% end %>
 </ol>
-
-<hr>
+</div>
 
 <div class="di foo-header">By Year</div><br/>
 <ol>
@@ -27,4 +27,3 @@
     <% end %>
 </ol>
 
-<hr>  

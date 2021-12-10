@@ -18,7 +18,7 @@ async function renderQuote() {
     }
     console.log(quote)
     document.getElementById("quotes-and-quotes-and-quotes").textContent = "\"" + quote.quote + "\"";
-    document.getElementById("quotes-and-quotes-and-quotes-author").textContent = "-" + quote.author;
+    document.getElementById("quotes-and-quotes-and-quotes-author").textContent = "- " + quote.author;
 }
 
 
